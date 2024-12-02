@@ -10,6 +10,12 @@ An easy-to-use software that allows you to control time in Half Sword. Adjust ti
    2 - Open it before or after launching Half Sword
    3 - You can now press the assigned key to change the time.
 ```
+
+## Video
+
+https://github.com/user-attachments/assets/98cf6bc2-daf4-4d37-be87-c2ce1968e1bf
+
+
     
 ## Screenshots
 
