@@ -22,3 +22,6 @@ https://github.com/user-attachments/assets/98cf6bc2-daf4-4d37-be87-c2ce1968e1bf
 ![App Screenshot](https://staticdelivery.nexusmods.com/mods/6067/images/headers/16_1733111311.jpg)
 ![App Screenshot](https://staticdelivery.nexusmods.com/mods/6067/images/16/16-1733111339-1993519505.png)
 
+## Credit
+
+ImGui Loader Base from notaila: https://github.com/notaila/ImGui-Loader-Base
