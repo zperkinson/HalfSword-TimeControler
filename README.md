@@ -11,11 +11,21 @@ An easy-to-use software that allows you to control time in Half Sword. Adjust ti
    3 - You can now press the assigned key to change the time.
 ```
 
+## Questions
+   - When I download it or check on VirusTotal, it shows virus detections. Why?
+         This happens because the mod includes functions like WriteMemory and ReadMemory
+         to interact directly with the game’s memory. These functions are commonly flagged by antivirus
+﻿﻿         software as potentially harmful, even though they used here solely to change specific in-game values,
+         such as altering the time for the slow-motion effect.
+
+   - I still want to play with the mod, but I'm unsure because of these issues.
+﻿  ﻿       Since the project is open source, you can check out the code on GitHub and even compile it yourself for added assurance.
+         The part of the code that modifies the values is primarily located in ui.cpp
+
+
 ## Video
 
 https://github.com/user-attachments/assets/98cf6bc2-daf4-4d37-be87-c2ce1968e1bf
-
-
     
 ## Screenshots
 
