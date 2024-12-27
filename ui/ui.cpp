@@ -122,7 +122,7 @@ void ui::updateMemoryState() {
 void ui::render() {
     ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_Once);
     ImGui::SetNextWindowSize(ImVec2(400, 300));
-    ImGui::Begin("TimeControler", &globals.active, ImGuiWindowFlags_NoResize);
+    ImGui::Begin("TimeController", &globals.active, ImGuiWindowFlags_NoResize);
 
     if (globals.hProcess) {
         ImGui::Text("PersistentLevel Address: 0x%llx", globals.persistentLevelAddress);
@@ -151,7 +151,7 @@ void ui::render() {
 
         ImGui::Spacing();
         bool keyActive = (GetAsyncKeyState(globals.keybind) & 0x8000) != 0;
-        ImGui::Text("TimeControler active: %s", keyActive ? "ON" : "OFF");
+        ImGui::Text("TimeController active: %s", keyActive ? "ON" : "OFF");
 
         float desiredTime = keyActive ? globals.slowTime : 1.0f;
         WriteMemory<float>(globals.hProcess, globals.timeDilationAddress, desiredTime);
